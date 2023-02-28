@@ -20,6 +20,6 @@ public class TimeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<TextMeshProUGUI>().SetText((375 - SecondsSinceStart()).ToString());
+        GetComponent<TextMeshProUGUI>().SetText((100 - SecondsSinceStart()).ToString());
     }
 }
